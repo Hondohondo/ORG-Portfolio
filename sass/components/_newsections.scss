@@ -1,0 +1,332 @@
+section.features {
+  padding: 8rem 0;
+  //color: $color-body;
+  //background-color: #fff;
+  //background-color: red;
+
+  h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 3.6rem;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  h2:after {
+    display: block;
+    height: 2px;
+    background-color: $color-org-green;
+    content: " ";
+    width: 10rem;
+    margin: 3rem auto 0 auto;
+
+  }
+
+  .long-copy {
+    line-height: 1.6;
+    font-size: 1.8rem;
+    width: 70%;
+    margin-left: 15%;
+    //text-align: justify;
+  }
+}
+
+
+//////////////////////////
+///POPUP - BOX FOR TEAM PAGE
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba($color-black, .8);
+  z-index: 999;
+
+  //display: none can not be animated
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: all .3s;
+
+
+  &_content {
+    @include absCenter;
+    width: 75%;
+    //height: 50rem; //for testing purposes
+    background-color: $color-white;
+    box-shadow: 0 2rem 4rem rgba($color-black, .2);
+    border-radius: 3px;
+
+    display: table;
+
+    overflow: hidden;
+
+    opacity: 0;
+
+    //just transform alone wont work because we used it in the abscenter include--
+    //transform: translate(-50%, -50%) scale(.5);
+    transform: translate(-50%, -50%) scale(.25);
+
+    //transition: all .4s .2s;
+    transition: all .5s .2s;
+  }
+
+  &_left {
+    width: 33.3333%;
+    //float: left;
+    display: table-cell;
+
+    vertical-align: middle;
+
+    //padding: 3rem 5rem;
+    padding-bottom: 3rem;
+  }
+  &_right {
+    width: 66.6667%;
+    //float: left;
+    display: table-cell;
+    vertical-align: middle;
+
+    padding: 3rem 5rem;
+
+  }
+  &_img {
+    display: block;
+    width: 100%;
+
+   /* &:hover {
+      filter: grayscale(50%);
+    }*/
+  }
+
+  &_text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+  }
+
+
+
+  //applies to the element which is the target when an ID is clicked
+//open states
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &:target &_content {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+
+  }
+
+  &_close {
+    &:link,
+    &:visited {
+      color: $color-grey-dark-3;
+      position: absolute;
+      top: 2.5rem;
+      right: 2.5rem;
+      font-size: 3rem;
+      text-decoration: none;
+      display: inline-block;
+      line-height: 1;
+    }
+
+    &:hover {
+      color: $color-org-green;
+    }
+  }
+}
+
+//Team Contacts Inside Popup
+
+.popup {
+
+  .team-contacts {
+    width: 60%;
+    //text-align: center;
+    //text-align: justify;
+    margin: 0 20%;
+    padding-top: 2rem;
+
+    a:link,
+    a:visited {
+      color: $color-org-green;
+      text-decoration: none;
+      padding-bottom: 1px;
+      border-bottom: 1px solid $color-org-green;
+      transition: border-bottom 0.2s, color 0.2s;
+
+    }
+
+    a:hover,
+    a:active {
+      color: #555;
+      border-bottom: 1px solid transparent;
+
+    }
+  }
+}
+
+//New Services Page
+.section-services {
+
+  font-size: 1.8rem;
+
+  img {
+    //width: 100%;
+    height: 12rem;
+
+  }
+
+  .portfolio {
+    font-size: 1.7rem;
+    height: 85rem;
+    background-color: $color-white;
+    border-radius: .5rem;
+    box-shadow: 0 .2rem .2rem #efefef;
+    padding: 2rem;
+
+    line-height: 1.6;
+  }
+
+  .property {
+    font-size: 1.7rem;
+    height: 85rem;
+    //background-color: #fcfcfc;
+    //border-top-left-radius: .5rem;
+    //border-top-right-radius: .5rem;
+    background-color: $color-white;
+    border-radius: .5rem;
+    box-shadow: 0 .2rem .2rem #efefef;
+    padding: 2rem;
+
+    line-height: 1.6;
+
+    .icon-small {
+      color: $color-org-blue;
+    }
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      padding: .5rem 0;
+    }
+  }
+}
+
+.service-type-wide {
+  background-color: $color-white;
+  border-radius: .5rem;
+  //width: 90%;
+  width: 100%;
+  //margin-left: 5%;
+  box-shadow: 0 .2rem .2rem #efefef;
+  padding-bottom: 2rem;
+
+  div {
+    // margin: o auto;
+    // text-align: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #e8e8e8;
+
+    &:first-child {
+      background-color: #fcfcfc;
+      border-top-left-radius: .5rem;
+      border-top-right-radius: .5rem;
+
+    }
+
+    &:last-child {
+      text-align: center;
+      // text-align: justify;
+      border: none;
+      margin-bottom: .5rem;
+
+    }
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    // letter-spacing: 1px;
+    // font-size: 110%;
+    font-size: 2.2rem;
+    // margin-bottom: 1.5rem;
+
+  }
+
+  p {
+    //color: green;
+    width: 80%;
+    //line-height: 1.7;
+    //font-size: 1.7rem;
+    //font-weight: 300;
+    text-align: left;
+    margin: 0 auto 2.5rem auto;
+    // padding: .5rem 0;
+    // margin-left: 10%;
+    // margin-right: 10%;
+  }
+
+  ul {
+    list-style: none;
+    // padding: 0 20%;
+
+
+    li {
+      padding: .5rem 0;
+      font-size: 1.8rem;
+      font-weight: 300;
+    }
+  }
+}
+
+//New Team Page
+.first-row-team {
+  display: flex;
+  justify-content: center;
+}
+
+.section-team {
+
+  p {
+    font-size: 1.7rem;
+  }
+}
+.section-research {
+
+  .service-type-wide {
+    width: 90%;
+    margin: 0 auto;
+
+    .icon-small {
+      color: $color-org-green;
+      font-size: 1.2rem;
+    }
+  }
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  .list-part {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+
+  ul {
+      text-align: left;
+    li {
+      font-weight: 400;
+    }
+  }
+}
