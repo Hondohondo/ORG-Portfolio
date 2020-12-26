@@ -46,9 +46,15 @@
 
             <?php include "property-card-7.php";?>
 
-            <?php include "property-card-8.php";?>
+<!--            --><?php //include "property-card-8.php";?>
 
             <?php include "property-card-9.php";?>
+
+            <?php include "property-card-10.php";?>
+
+            <?php include "property-card-11.php";?>
+
+            <?php include "property-card-12.php";?>
 
 
         </section>

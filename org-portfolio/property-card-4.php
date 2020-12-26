@@ -13,7 +13,7 @@
                 </div>
                <!-- <div class="col-1-of-2">
                     <a href="../img/newimages/creekviewsignage.jpg" data-lightbox="mygallery-4" data-title="Creekview Signage">
-<!--                        <img src="../img/property/property-10.jpg" alt=""> -->
+                    <img src="../img/property/property-10.jpg" alt="">
                     </a>
                 </div>-->
             </div>

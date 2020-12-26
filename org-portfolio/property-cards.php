@@ -140,7 +140,7 @@
         </div>
 
     </div>
-    <div class="col-1-of-3">
+   <!-- <div class="col-1-of-3">
         <div class="home">
             <img src="../img/newimages/hunters-pointe.jpg" alt="Hunters Pointe" class="home__img">
             <h5 class="home__name">Hunter’s Pointe</h5>
@@ -157,7 +157,7 @@
 
         </div>
 
-    </div>
+    </div>-->
     <div class="col-1-of-3">
         <div class="home">
             <img src="../img/newimages/lakepoint.png" alt="LakePoint" class="home__img">
@@ -176,6 +176,87 @@
         </div>
 
     </div>
+
+    <div class="col-1-of-3">
+        <div class="home">
+            <img src="../img/newimages/LANDERBROOK.jpg" alt="Landerbrook" class="home__img">
+            <h5 class="home__name">Landerbrook Pointe</h5>
+
+            <div class="row home__box">
+
+                <div class="home__location">
+                    <i class="ion-ios-location"></i>
+                    <p>5875 Landerbrook Drive, Mayfield Heights, Ohio, 44124</p>
+                </div>
+
+            </div>
+            <a href="../img/newimages/LANDERBROOK.jpg" data-lightbox="mygallery-10" data-title="Landerbrook" class="home__btn">View Property</a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Row 4 -->
+<div class="row">
+    <div class="col-1-of-3">
+        <div class="home">
+            <img src="../img/newimages/Newport_Sqaure.JPG" alt="Newport  Square" class="home__img">
+            <h5 class="home__name">Newport Square</h5>
+
+            <div class="row home__box">
+
+                <div class="home__location">
+                    <i class="ion-ios-location"></i>
+                    <p>22935 Newport Lane, Warrensville Heights, Ohio, 44128</p>
+                </div>
+
+            </div>
+
+            <a href="../img/newimages/Newport_Sqaure.JPG" data-lightbox="mygallery-11" data-title="Newport Square" class="home__btn">View Property</a>
+
+        </div>
+
+    </div>
+
+    <div class="col-1-of-3">
+        <div class="home">
+            <img src="../img/newimages/3723ParkEast.jpg" alt="3723 Park East" class="home__img">
+            <h5 class="home__name">Park East Office Park</h5>
+
+            <div class="row home__box">
+
+                <div class="home__location">
+                    <i class="ion-ios-location"></i>
+                    <p>3733, 3737, & 3723 Park East Drive, Beachwood, Ohio, 44122</p>
+                </div>
+
+            </div>
+            <a href="../img/newimages/3723ParkEast.jpg" data-lightbox="mygallery-12" data-title="3723 Park East" class="home__btn">View Property</a>
+
+        </div>
+
+    </div>
+
+   <!-- <div class="col-1-of-3">
+        <div class="home">
+            <img src="../img/newimages/LANDERBROOK.jpg" alt="LakePoint" class="home__img">
+            <h5 class="home__name">Landerbrook Pointe</h5>
+
+            <div class="row home__box">
+
+                <div class="home__location">
+                    <i class="ion-ios-location"></i>
+                    <p>5875 Landerbrook Drive, Mayfield Heights, Ohio, 44124</p>
+                </div>
+
+            </div>
+            <a href="../img/newimages/LANDERBROOK.jpg" data-lightbox="mygallery-10" data-title="LakePoint" class="home__btn">View Property</a>
+
+        </div>
+
+    </div>-->
 
 </div>
 

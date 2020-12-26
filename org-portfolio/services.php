@@ -86,7 +86,7 @@
 
                     <div class="col-1-of-2 portfolio">
 
-                        <img src="../org_images/org-portfolio-logo.png" alt="ORG Logo">
+                        <img src="../org_images/org_portfolio_logo.png" alt="ORG Logo">
 
                         <p class="u-margin-bottom-small u-margin-top-2">
                             ORG Portfolio Management is an entrepreneurial fiduciary providing real assets consulting services to our clients with process driven, customized and objective advice, without conflict.  Services provided include the following:
@@ -120,14 +120,14 @@
                         </p>
 
                         <ul>
-                            <li><i class="ion-ios-circle-filled icon-small"></i>Property Management</li>
-                            <li><i class="ion-ios-circle-filled icon-small"></i>Rent Collection</li>
-                            <li><i class="ion-ios-circle-filled icon-small"></i>Mortgage and Utility Payments</li>
-                            <li><i class="ion-ios-circle-filled icon-small"></i>Accounting Services</li>
-                            <li><i class="ion-ios-circle-filled icon-small"></i>Leasing</li>
-                            <li><i class="ion-ios-circle-filled icon-small"></i>Marketing</li>
-                            <li><i class="ion-ios-circle-filled icon-small"></i>Inspection of Property</li>
-                            <li><i class="ion-ios-circle-filled icon-small"></i>Repair and Maintenance Services</li>
+                            <li><i class="ion-ios-circle-filled icon-small"></i>Full service property management</li>
+                            <li><i class="ion-ios-circle-filled icon-small"></i>On-site management personnel</li>
+                            <li><i class="ion-ios-circle-filled icon-small"></i>Timely repair and maintenance services</li>
+                            <li><i class="ion-ios-circle-filled icon-small"></i>Manage tenant needs with efficiency and professionalism</li>
+                            <li><i class="ion-ios-circle-filled icon-small"></i>Premiere services and amenities</li>
+                            <li><i class="ion-ios-circle-filled icon-small"></i>Trust accounting</li>
+                            <li><i class="ion-ios-circle-filled icon-small"></i>Hands-on tenant improvements, construction management, space design</li>
+                            <li><i class="ion-ios-circle-filled icon-small"></i>Procurement of entitlements, zoning, and incentives</li>
                             <li> &nbsp; </li>
 <!--                            <li> &nbsp; </li>-->
 

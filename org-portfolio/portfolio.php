@@ -10,17 +10,17 @@
         <header class="header">
 
             <?php include "main_nav.php";?>
-
+<!--
             <div class="header__text-box">
                 <h1 class="heading-primary">
                     <span class="heading-primary--main">Institutional Real Estate Investing</span>
-                    <!-- <span class="heading-primary--sub">With Perfectly Designed Shortcodes</span> -->
+                     <span class="heading-primary--sub">With Perfectly Designed Shortcodes</span>
                     <span class="heading-primary--sub">ORG Portfolio Management</span>
 
                 </h1>
 
                 <a href="#section-services" class="btn btn--white btn--animated js--scroll-to-services">OUR SERVICES</a>
-            </div>
+            </div>-->
 
 
         </header>

@@ -79,7 +79,7 @@
             </div>
         </div>
         <div class="popup_right">
-            <a href="#row2" class="popup_close"> &times; </a>
+            <a href="#row3" class="popup_close"> &times; </a>
             <h2 class="heading-secondary u-margin-bottom-small">
                 Barbara McDowell
             </h2>
@@ -111,7 +111,7 @@
             </div>
         </div>
         <div class="popup_right">
-            <a href="#row5" class="popup_close"> &times; </a>
+            <a href="#row3" class="popup_close"> &times; </a>
             <h2 class="heading-secondary u-margin-bottom-small">
                 Thorsen Eriksen
             </h2>
@@ -143,7 +143,7 @@
             </div>
         </div>
         <div class="popup_right">
-            <a href="#row4" class="popup_close"> &times; </a>
+            <a href="#row3" class="popup_close"> &times; </a>
             <h2 class="heading-secondary u-margin-bottom-small">
                 Austin Mack
             </h2>
@@ -173,7 +173,7 @@
             </div>
         </div>
         <div class="popup_right">
-            <a href="#row3" class="popup_close"> &times; </a>
+            <a href="#row2" class="popup_close"> &times; </a>
             <h2 class="heading-secondary u-margin-bottom-small">
                 Isabel Ciolek
             </h2>
@@ -204,7 +204,7 @@
             </div>
         </div>
         <div class="popup_right">
-            <a href="#row2" class="popup_close"> &times; </a>
+            <a href="#row4" class="popup_close"> &times; </a>
             <h2 class="heading-secondary u-margin-bottom-small">
                 Christine Molley
             </h2>
@@ -236,7 +236,7 @@
             </div>
         </div>
         <div class="popup_right">
-            <a href="#row3" class="popup_close"> &times; </a>
+            <a href="#row4" class="popup_close"> &times; </a>
             <h2 class="heading-secondary u-margin-bottom-small">
                 Marlene Simone
             </h2>
@@ -299,7 +299,7 @@
             </div>
         </div>
         <div class="popup_right">
-            <a href="#row5" class="popup_close"> &times; </a>
+            <a href="#row4" class="popup_close"> &times; </a>
             <h2 class="heading-secondary u-margin-bottom-small">
                 Tonya Short
             </h2>
@@ -330,7 +330,7 @@
             </div>
         </div>
         <div class="popup_right">
-            <a href="#row4" class="popup_close"> &times; </a>
+            <a href="#row5" class="popup_close"> &times; </a>
             <h2 class="heading-secondary u-margin-bottom-small">
                 Natalie Topalovic
             </h2>
@@ -361,7 +361,7 @@
             </div>
         </div>
         <div class="popup_right">
-            <a href="#row3" class="popup_close"> &times; </a>
+            <a href="#row5" class="popup_close"> &times; </a>
             <h2 class="heading-secondary u-margin-bottom-small">
                 Diane Smith
             </h2>
@@ -392,7 +392,7 @@
             </div>
         </div>
         <div class="popup_right">
-            <a href="#row4" class="popup_close"> &times; </a>
+            <a href="#row2" class="popup_close"> &times; </a>
             <h2 class="heading-secondary u-margin-bottom-small">
                 Tammy Balog
             </h2>

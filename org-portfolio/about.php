@@ -15,7 +15,7 @@
 
             <div class="service__container">
                 <div class="service-content">
-                    <h1 class="text-service">About</h1>
+                    <h1 class="text-service">About ORG</h1>
                 </div>
 <!--                <hr class="hr-line">-->
 <!--                <span>Mission Statement and History</span>-->
@@ -30,7 +30,7 @@
             <div class="row">
                 <div class="service-type">
                     <div>
-                        <h3>About</h3>
+                        <h3>About ORG</h3>
                     </div>
 
                     <div>

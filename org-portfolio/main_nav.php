@@ -10,7 +10,7 @@
         <!-- <img src="img/logo.png" alt="ORG logo" class="header__logo"> -->
         <ul class="main-nav js--main-nav">
             <li><a href="portfolio.php">Home</a></li>
-            <li><a href="about.php">About</a></li>
+            <li><a href="about.php">About ORG</a></li>
             <li><a href="services.php">Services</a></li>
             <li><a href="team.php">Team</a></li>
             <li><a href="community.php">Community</a></li>
