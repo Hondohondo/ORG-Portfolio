@@ -56,6 +56,11 @@
 
             <?php include "property-card-12.php";?>
 
+            <?php include "property-card-13.php";?>
+
+            <?php include "property-card-14.php";?>
+
+
 
         </section>
 

@@ -239,24 +239,50 @@
 
     </div>
 
-   <!-- <div class="col-1-of-3">
+    <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/LANDERBROOK.jpg" alt="LakePoint" class="home__img">
-            <h5 class="home__name">Landerbrook Pointe</h5>
+            <img src="../img/newimages/STONEBROOKE_VILLAGE.jpg" alt="Stonebrook" class="home__img">
+            <h5 class="home__name">Stonebrook</h5>
 
             <div class="row home__box">
 
                 <div class="home__location">
                     <i class="ion-ios-location"></i>
-                    <p>5875 Landerbrook Drive, Mayfield Heights, Ohio, 44124</p>
+                    <p>2948 Stonebrook Lane, Medina, Ohio, 44256</p>
                 </div>
 
             </div>
-            <a href="../img/newimages/LANDERBROOK.jpg" data-lightbox="mygallery-10" data-title="LakePoint" class="home__btn">View Property</a>
+            <a href="../img/newimages/STONEBROOKE_VILLAGE.jpg" data-lightbox="mygallery-13" data-title="Stonebrook" class="home__btn">View Property</a>
 
         </div>
 
-    </div>-->
+    </div>
+
+</div>
+
+<!-- Row 5 -->
+<div class="row">
+    <div class="col-1-of-3">
+        <div class="home">
+            <img src="../img/newimages/WoodviewCommons.jpg" alt="Woodview Commons" class="home__img">
+            <h5 class="home__name">Woodview Commons</h5>
+
+            <div class="row home__box">
+
+                <div class="home__location">
+                    <i class="ion-ios-location"></i>
+                    <p>1107 Frost Road, Streetsboro, Ohio, 44241</p>
+                </div>
+
+            </div>
+
+            <a href="../img/newimages/WoodviewCommons.jpg" data-lightbox="mygallery-14" data-title="Woodview Commons" class="home__btn">View Property</a>
+
+        </div>
+
+    </div>
+
+
 
 </div>
 
