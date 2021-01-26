@@ -51,8 +51,16 @@
                         One of ORG’s principals founded The Race, Inc. (“The Race), a local non-profit organization that focuses on raising money to end breast cancer through prevention and quality treatment.  The Race hosts an annual 5K and 1-mile run/walk to empower families to make a difference in the lives of those touched by breast cancer.  Proceeds have benefited the Cleveland Clinic Foundation, Susan G. Komen and recently the University Hospitals’ Seidman Cancer Center, in Cleveland, Ohio.  The Race has raised over $1 million in the fight against breast cancer.
                     </p>
 
+
                     <p class="u-margin-bottom-medium">
-                        Visit <a href="https://www.dotherace.com/"> The Race Website <sup>&nearr;</sup></a>
+                        <span>
+                           <a href="https://www.dotherace.com/" target=_blank> <img src="../img/racelogo.jpg" alt="" class="race-logo"></a>
+                        </span>
+                      <span>
+<!--                           <img src="../img/racelogo.jpg" alt="" class="race-logo">-->
+                          Visit <a href="https://www.dotherace.com/" target=_blank>The Race Website <sup>&nearr;</sup> </a>
+                      </span>
+
                     </p>
 
                     <p class="u-margin-top-2 u-margin-bottom-small">

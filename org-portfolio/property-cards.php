@@ -82,7 +82,7 @@
     </div>
     <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/GED.JPG" alt="Gym" class="home__img">
+            <img src="../img/newimages/GED_1.jpg" alt="Gym" class="home__img">
             <h5 class="home__name">GED</h5>
             <div class="row home__box">
 
@@ -93,7 +93,7 @@
 
             </div>
 
-            <a href="../img/newimages/GED.JPG" data-lightbox="mygallery-5" data-title="GED" class="home__btn">View Property</a>
+            <a href="../img/newimages/GED_1.jpg" data-lightbox="mygallery-5" data-title="GED" class="home__btn">View Property</a>
 
         </div>
 
@@ -160,7 +160,7 @@
     </div>-->
     <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/lakepoint.png" alt="LakePoint" class="home__img">
+            <img src="../img/newimages/Lakepoint_1.jpg" alt="LakePoint" class="home__img">
             <h5 class="home__name">Lakepoint Office Park</h5>
 
             <div class="row home__box">
@@ -171,7 +171,7 @@
                 </div>
 
             </div>
-            <a href="../img/newimages/lakepoint.png" data-lightbox="mygallery-9" data-title="LakePoint" class="home__btn">View Property</a>
+            <a href="../img/newimages/Lakepoint_1.jpg" data-lightbox="mygallery-9" data-title="LakePoint" class="home__btn">View Property</a>
 
         </div>
 
@@ -179,7 +179,7 @@
 
     <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/LANDERBROOK.jpg" alt="Landerbrook" class="home__img">
+            <img src="../img/newimages/Landerbrook_1.jpg" alt="Landerbrook" class="home__img">
             <h5 class="home__name">Landerbrook Pointe</h5>
 
             <div class="row home__box">
@@ -190,7 +190,7 @@
                 </div>
 
             </div>
-            <a href="../img/newimages/LANDERBROOK.jpg" data-lightbox="mygallery-10" data-title="Landerbrook" class="home__btn">View Property</a>
+            <a href="../img/newimages/Landerbrook_1.jpg" data-lightbox="mygallery-10" data-title="Landerbrook" class="home__btn">View Property</a>
 
         </div>
 

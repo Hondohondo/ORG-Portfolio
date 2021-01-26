@@ -7,26 +7,26 @@
         <div class="col-1-of-2 show-box-small">
             <div class="row">
                 <div class="col-1-of-2">
-                    <a href="../img/newimages/LANDERBROOK.jpg" data-lightbox="mygallery-10" data-title="Landerbrook">
+                    <a href="../img/newimages/Landerbrook_2.jpg" data-lightbox="mygallery-10" data-title="Landerbrook">
                         </a>
                 </div>
-            <!--    <div class="col-1-of-2">
-                    <a href="../img/newimages/lakepoint-lobby.jpg" data-lightbox="mygallery-10" data-title="Lobby">
+               <div class="col-1-of-2">
+                    <a href="../img/newimages/Landerbrook_3.jpg" data-lightbox="mygallery-10" data-title="Landerbrook">
                          </a>
-                </div>-->
+                </div>
             </div>
 
-        <!-- <div class="row">
+         <div class="row">
                 <div class="col-1-of-2">
-                    <a href="../img/newimages/lakepoint-office.jpg" data-lightbox="mygallery-9" data-title="Office">
+                    <a href="../img/newimages/Landerbrook_4.jpg" data-lightbox="mygallery-10" data-title="Landerbrook">
                          </a>
                 </div>
                 <div class="col-1-of-2">
-                    <a href="../img/newimages/lakepoint-theatre.jpg" data-lightbox="mygallery-9" data-title="Theatre">
+                    <a href="../img/newimages/Landerbrook_5.jpg" data-lightbox="mygallery-10" data-title="Landerbrook">
 
                     </a>
                 </div>
-            </div>-->
+            </div>
         </div>
     </div>
 

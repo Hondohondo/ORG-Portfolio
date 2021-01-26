@@ -43,7 +43,8 @@
     }
 
     &--green {
-        background-color: $color-primary;
+        //background-color: $color-primary;
+        background-color: $color-org-green;
         color: $color-white;
     }
 }

@@ -237,7 +237,7 @@ body {
   color: #777;
 }
 .btn--green {
-  background-color: #55c57a;
+  background-color: #6b9912;
   color: #fff;
 }
 
@@ -371,6 +371,56 @@ body {
   opacity: 0;
   visibility: hidden;
   transform: translateY(-4rem);
+}
+
+address {
+  font-size: 1.6rem;
+  padding: 1.5rem 2rem;
+}
+
+.contact-text {
+  /* background-color: #fcfcfc;
+   border-top-left-radius: 0.5rem;
+   border-top-right-radius: 0.5rem;*/
+  background-color: #fff;
+  border-radius: 0.5rem;
+  /* width: 100%; */
+  box-shadow: 0 0.2rem 0.2rem #efefef;
+  padding-bottom: 2rem;
+}
+.contact-text h3 {
+  background-color: #fcfcfc;
+  font-size: 2rem;
+  padding: 1.5rem;
+  color: inherit;
+  border-bottom: 1px solid #e8e8e8;
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  /*  background-image: linear-gradient(to left,
+            rgba($color-org-green, .6) 0%,
+        //rgba($color-white, .9) 50%,
+            rgba($color-white, .9) 100%,
+            transparent 50%),
+    url(../img/heines.jpg);*/
+}
+.contact-text p {
+  font-size: 1.6rem;
+  padding: 1.5rem 2rem;
+}
+.contact-text a:link,
+.contact-text a:visited {
+  color: #6b9912;
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid #6b9912;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+.contact-text a:hover,
+.contact-text a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
 }
 
 section.features {
@@ -596,6 +646,11 @@ section.features .long-copy {
 }
 .section-research ul li {
   font-weight: 400;
+}
+
+.race-logo {
+  width: 20rem;
+  display: block;
 }
 
 .story {
@@ -1038,26 +1093,12 @@ section.features .long-copy {
 #research,
 #team {
   height: 50vh;
-}
-
-#services {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../banner-images/orgspace.jpg);
-}
-
-#about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../banner-images/creekview.jpg);
-}
-
-#team {
-  background-image: linear-gradient(360deg, #383836 10%, rgba(74, 74, 74, 0.705) 360%), url(../img/team.jpg);
-}
-
-#research {
-  background-image: linear-gradient(360deg, #383836 10%, rgba(74, 74, 74, 0.705) 360%), url(../img/office.jpg);
-}
-
-#acres {
-  background-image: linear-gradient(360deg, #383836 10%, rgba(74, 74, 74, 0.705) 360%), url(../img/service.jpg);
+  background: #232526;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .service__container {
@@ -1162,10 +1203,10 @@ section.features .long-copy {
 .section-team a:visited,
 .section-research a:link,
 .section-research a:visited {
-  color: #55c57a;
+  color: #6b9912;
   text-decoration: none;
   padding-bottom: 1px;
-  border-bottom: 1px solid #55c57a;
+  border-bottom: 1px solid #6b9912;
   transition: border-bottom 0.2s, color 0.2s;
 }
 .section-team a:hover,
@@ -1311,26 +1352,34 @@ section.features .long-copy {
     padding: 10rem 0;
   }
 }
+.section-book p {
+  font-size: 1.7rem;
+}
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/heines.jpg);
+  background-image: linear-gradient(to left, rgba(107, 153, 18, 0.6) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 50%), url(../img/heines.jpg);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.25);
-}
-@media (max-width: 75em) {
-  .book {
-    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/heines.jpg);
-    background-size: cover;
-  }
-}
-@media (max-width: 56.25em) {
-  .book {
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/heines.jpg);
-  }
+  /*  @include respond(tab-land) {
+        background-image: linear-gradient(105deg,
+                                rgba($color-white, .9) 0%,
+                                rgba($color-white, .9) 65%,
+                                transparent 65%), 
+                        url(../img/heines.jpg);
+        background-size: cover;
+    }
+
+    @include respond(tab-port) {
+        background-image: linear-gradient(to right,
+                                rgba($color-white, .9) 0%,
+                                rgba($color-white, .9) 100%), 
+                        url(../img/heines.jpg);
+    }*/
 }
 .book__form {
   width: 50%;
+  width: 100%;
   padding: 6rem;
 }
 @media (max-width: 75em) {

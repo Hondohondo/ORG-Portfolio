@@ -23,30 +23,38 @@
         </header>
 
         <section class="section-book" id="stickyy">
-            <div class="row">
-                <div class="book">
-                    <div class="book__form">
-                        <form action="#" class="form">
-                            <div class="u-margin-bottom-medium">
-                                <h2 class="heading-secondary">
-                                    Contact Us
-                                </h2>
-                            </div>
-                            <div class="form__group">
-                                <input type="text" class="form__input" placeholder="Name" id="name" required>
-                                <label for="name" class="form__label">Your Name</label>
-                            </div>
-                            <div class="form__group">
-                                <input type="email" class="form__input" placeholder="Email" id="email" required>
-                                <label for="email" class="form__label">Email</label>
-                            </div>
 
-                            <div class="form__group">
-                                <button class="btn btn--green">Submit &rarr;</button>
-                            </div>
-                        </form>
+            <div class="row">
+
+                <div class="col-2-of-3">
+                    <div class="contact-text">
+                        <h3>Contact Us</h3>
+
+                        <p>
+                            ORG is always looking for dedicated and knowledgeable individuals to join our team.  If you are interested in discussing employment opportunities, please email
+                            <a href="mailto:info@orgpm.com"> info@orgpm.com.</a>
+                        </p>
+
+                        <p>
+                            INQUIRIES: <br>
+                            All inquiries related to Property Management be directed to <a href="mailto:info@orgpm.com"> info@orgpm.com.</a>
+                            <br>
+                            All inquiries related to Portfolio Management be directed to <a href="mailto:orgreports@orgpm.com"> orgreports@orgpm.com</a>
+                        </p>
+
+                        <address>
+                            ADDRESS: <br>
+                            ORG <br>
+                            3733 Park East Drive, Suite 210 <br>
+                            Cleveland, OH 44122 <br>
+                            Main: 216-468-0055 <br>
+                            Fax: 216-468-0054 <br>
+                            Email: <a href="mailto:info@orgpm.com">info@orgpm.com.</a>  <br>
+                        </address>
                     </div>
+
                 </div>
+
             </div>
             
         </section>

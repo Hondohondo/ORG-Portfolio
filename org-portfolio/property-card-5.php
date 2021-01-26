@@ -6,12 +6,12 @@
 <!--        </div>-->
         <div class="col-1-of-2 show-box-small">
             <div class="row">
-                <div class="col-1-of-2">
-                    <a href="../img/newimages/GED-1.jpg" data-lightbox="mygallery-5" data-title="GED">
+             <!--   <div class="col-1-of-2">
+                    <a href="../img/newimages/GED_1.jpg" data-lightbox="mygallery-5" data-title="GED">
                         </a>
-                </div>
+                </div>-->
                 <div class="col-1-of-2">
-                    <a href="../img/newimages/GED-2.JPG" data-lightbox="mygallery-5" data-title="GED">
+                    <a href="../img/newimages/GED_2.jpg" data-lightbox="mygallery-5" data-title="GED">
                          </a>
                 </div>
             </div>
@@ -22,9 +22,8 @@
                          </a>
                 </div>
                 <div class="col-1-of-2">
-<!--                    <a href="../img/property/property-12-big.jpg" data-lightbox="mygallery-3" data-title="ORG Property">-->
-<!--                        <img src="../img/property/property-12.jpg" alt="">-->
-<!--                    </a>-->
+                    <a href="../img/newimages/GED_3.jpg" data-lightbox="mygallery-5" data-title="GED">
+                    </a>
                 </div>
             </div>
         </div>
