@@ -30,7 +30,8 @@
             <div class="row">
                 <div class="service-type">
                     <div>
-                        <h3>About ORG</h3>
+<!--                        <h3>About ORG</h3>-->
+                        <h3>&nbsp;</h3>
                     </div>
 
                     <div>
@@ -91,17 +92,6 @@
         </section>
 
          <?php include "portfoliofooter.php";?>
-
-
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-        <!-- <script src="javascipt/jquery.waypoints.min.js"></script>
-        <script src="javascript/noframework.waypoints.min.js"></script> -->
-
-        <script src="../javascript/jquery.waypoints.min.js"></script>
-
-        <script src="../javascript/script.js"></script>
 
 
 

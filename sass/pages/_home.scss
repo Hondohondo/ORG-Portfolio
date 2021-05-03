@@ -63,7 +63,9 @@
 }
 
 .section-book {
-    padding: 10rem 0;
+    //padding: 10rem 0;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
     background-color: #f4f4f4;
 
     @include respond(tab-port) {

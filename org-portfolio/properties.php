@@ -50,11 +50,21 @@
 
             <?php include "property-card-9.php";?>
 
+           <!--
+            ---------------------------------------
+            ---------------------------------------
+            -->
+
             <?php include "property-card-10.php";?>
 
             <?php include "property-card-11.php";?>
 
             <?php include "property-card-12.php";?>
+
+            <!--
+            ---------------------------------------
+            ---------------------------------------
+            -->
 
             <?php include "property-card-13.php";?>
 

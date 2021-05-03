@@ -5,7 +5,7 @@
 
     <title>ORGPM | Institutional Real Estate Investing | Team</title>
 </head>
-<body>
+<body id="team-page">
 <header class="header" id="team">
 
 
@@ -30,7 +30,8 @@
     <div class="row">
         <div class="service-type-wide">
             <div>
-                <h3>Team</h3>
+<!--                <h3>Team</h3>-->
+                <h3>&nbsp;</h3>
             </div>
 
             <p class="u-margin-top-2">
@@ -67,7 +68,7 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                (216) 910-9063
+                216.910.9063
             </div>
 
             <div class="team-contacts">
@@ -88,7 +89,7 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                (216) 910-9080
+                216.910.9080
             </div>
 
             <div class="team-contacts">
@@ -193,7 +194,7 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                (216) 910-9072
+                216.910.9072
             </div>
 
             <div class="team-contacts">
@@ -202,7 +203,7 @@
             </div>
         </div>
 
-        <div class="col-1-of-3 box">
+    <!--    <div class="col-1-of-3 box">
             <a href="#austin">
                 <img src="../org_images/male_avatar.png" alt="Austin Mack">
             </a>
@@ -215,14 +216,14 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                (216) 910-9071
+                216.910.9071
             </div>
 
             <div class="team-contacts">
                 <i class="ion-ios-email icon-small"></i>
                 <a href="mailto:amack@orgpm.com">amack@orgpm.com</a>
             </div>
-        </div>
+        </div>-->
 
         <div class="col-1-of-3 box">
 
@@ -239,12 +240,34 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                (216) 910-9070
+                216.910.9070
             </div>
 
             <div class="team-contacts">
                 <i class="ion-ios-email icon-small"></i>
                 <a href="mailto:bmcdowell@orgpm.com">bmcdowell@orgpm.com</a>
+            </div>
+        </div>
+
+        <div class="col-1-of-3 box">
+            <a href="#tonya">
+                <img src="../org_images/female_avatar.png" alt="Tonya Short">
+            </a>
+            <h3 class="team-names">Tonya Short</h3>
+
+            <div class="team-contacts">
+                <i class="ion-ios-person icon-small"></i>
+                Project Communications Manager
+            </div>
+
+            <div class="team-contacts">
+                <i class="ion-ios-telephone icon-small"></i>
+                216.910.9064
+            </div>
+
+            <div class="team-contacts">
+                <i class="ion-ios-email icon-small"></i>
+                <a href="mailto:tshort@orgpm.com">tshort@orgpm.com</a>
             </div>
         </div>
 
@@ -258,9 +281,9 @@
 
     </div>
 
-    <div id="row4" class="row">
+   <!-- <div id="row4" class="row">
 
-        <div class="col-1-of-3 box">
+       <div class="col-1-of-3 box">
             <a href="#christine">
                 <img src="../org_images/female_avatar.png" alt="Christine Molley">
 
@@ -284,27 +307,12 @@
             </div>
         </div>
 
-        <div class="col-1-of-3 box">
-            <a href="#tonya">
-                <img src="../org_images/female_avatar.png" alt="Tonya Short">
-            </a>
-            <h3 class="team-names">Tonya Short</h3>
 
-            <div class="team-contacts">
-                <i class="ion-ios-person icon-small"></i>
-                Project Communications Manager
-            </div>
 
-            <div class="team-contacts">
-                <i class="ion-ios-telephone icon-small"></i>
-                (216) 910-9064
-            </div>
 
-            <div class="team-contacts">
-                <i class="ion-ios-email icon-small"></i>
-                <a href="mailto:tshort@orgpm.com">tshort@orgpm.com</a>
-            </div>
-        </div>
+    </div>-->
+
+    <div id="row5" class="row">
 
         <div class="col-1-of-3 box">
             <a href="#marlene">
@@ -327,19 +335,6 @@
                 <a href="mailto:msimone@orgpm.com">msimone@orgpm.com</a>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-    <div id="row5" class="row">
 
         <div class="col-1-of-3 box">
             <a href="#diane">
@@ -377,7 +372,7 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                (216) 910-9065
+                216.910.9065
             </div>
 
             <div class="team-contacts">
@@ -545,18 +540,11 @@
 
 
 
-<?php include "team_bios.php";?>
+<?php //include "team_bios.php";?>
+<?php include "team_bios-2.php";?>
 
 <?php include "portfoliofooter.php";?>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<!-- <script src="javascipt/jquery.waypoints.min.js"></script>
-<script src="javascript/noframework.waypoints.min.js"></script> -->
-
-<script src="../javascript/jquery.waypoints.min.js"></script>
-
-<script src="../javascript/script.js"></script>
 
 </body>
 </html>

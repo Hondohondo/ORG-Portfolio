@@ -7,8 +7,8 @@
         <div class="col-1-of-2 show-box-small">
             <div class="row">
                 <div class="col-1-of-2">
-                    <a href="../img/newimages/WoodviewCommons.jpg" data-lightbox="mygallery-14" data-title="WoodView Commons">
-                        </a>
+<!--                    <a href="../img/newimages/WoodviewCommons.jpg" data-lightbox="mygallery-14" data-title="WoodView Commons"></a>-->
+
                 </div>
                <!-- <div class="col-1-of-2">
                     <a href="../img/newimages/Stonebrooke_GuardHouse.jpg" data-lightbox="mygallery-14" data-title="Stonebrooke GuardHouse">

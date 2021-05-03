@@ -52,10 +52,10 @@
     }
 }
 
-address {
+/*address {
     font-size: 1.6rem;
     padding: 1.5rem 2rem;
-}
+}*/
 
 .contact-text {
    /* background-color: #fcfcfc;
@@ -64,7 +64,8 @@ address {
 
     background-color: #fff;
     border-radius: 0.5rem;
-    /* width: 100%; */
+    width: 80%;
+    margin: 0 auto;
     box-shadow: 0 0.2rem 0.2rem #efefef;
     padding-bottom: 2rem;
 
@@ -90,9 +91,11 @@ address {
         url(../img/heines.jpg);*/
     }
 
-    p {
+    p, address {
         font-size: 1.6rem;
-        padding: 1.5rem 2rem;
+        //padding: 1.5rem 2rem;
+        width: 80%;
+        margin: 2rem auto;
     }
 
     a:link,

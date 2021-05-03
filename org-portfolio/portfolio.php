@@ -27,11 +27,16 @@
 
         <main>
 
-            <section class="features">
-                <div class="row">
+            <section class="features homepage">
+                <div class="row u-center-text">
                     <h2>ORG &mdash; Our Mission Statement</h2>
-                    <p class="long-copy">
-                        ORG is a global real assets investment manager and consultant proactively providing clients with customized advice.  Our investment recommendations and analysis are grounded upon thoughtful and conservative underwriting and comprehensive research.  We provide clients with unequaled access and transparency to global investment opportunities.
+                 <p class="long-copy">
+<!--                        ORG is a global real assets investment manager and consultant proactively providing clients with customized advice.  Our investment recommendations and analysis are grounded upon thoughtful and conservative underwriting and comprehensive research.  We provide clients with unequaled access and transparency to global investment opportunities.-->
+                    ORG Portfolio Management is a global real assets investment manager and consultant proactively providing clients with customized advise.  Our investment recommendations and analysis are grounded upon thoughtful and conservative underwriting and comprehensive research.  We provide clients with unequaled access and transparency to global investment opportunities.
+                    </p>
+
+                    <p class="long-copy u-margin-top-1">
+                        ORG Property Management owns and operates over 2,000,000 square feet of retail, medical, commercial, and industrial properties in the northeast Ohio region.  Our mission is to create partnerships and provide leadership that result in satisfied tenants, best-in-class properties, and a Team that is invested in our long-term goals.
                     </p>
                 </div>
             </section>
@@ -105,15 +110,6 @@
                 </div>
             </div>
         </section> -->
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-        <!-- <script src="javascipt/jquery.waypoints.min.js"></script>
-        <script src="javascript/noframework.waypoints.min.js"></script> -->
-
-        <script src="../javascript/jquery.waypoints.min.js"></script>
-
-        <script src="../javascript/script.js"></script>
 
     </body>
 

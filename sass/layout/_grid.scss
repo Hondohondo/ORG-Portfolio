@@ -1,7 +1,30 @@
+#team-page .row .col-1-of-3 {
+    @include respond(tab-port) {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    @include respond(phone) {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+
 .row {
     max-width: $grid-width;
     // background-color: #eee;
     margin: 0 auto;
+
+    @include respond(tab-land) {
+        //max-width: 100%;
+        //margin: 0 auto;
+        //padding-left: 2rem;
+        //margin-left: 4rem;
+        padding-left: 4rem;
+    }
 
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
@@ -25,18 +48,29 @@
         // background-color: orangered;
         float: left;
 
+        &:first-child {
+            @include respond(tab-land) {
+
+            }
+        }
+
         &:not(:last-child) {
             margin-right: $gutter-horizontal;
 
+            @include respond(tab-land) {
+                margin-right: $gutter-horizontal-medium;
+            }
+
             @include respond(tab-port) {
-                margin-right: 0;
+                //margin-right: 0;
                 margin-bottom: $gutter-vertical-small;
             }
         }
 
         @include respond(tab-port) {
-            width: 100% !important;
+            //width: 100% !important;
         }
+
     }
 
     //2 sides but with no gutter
@@ -49,11 +83,27 @@
 
     .col-1-of-2 {
         width: calc((100% - #{$gutter-horizontal}) / 2);
+
+        @include respond(tab-port) {
+            width: 100% !important;
+        }
     }
 
     .col-1-of-3 {
         width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+
+        @include respond(tab-port) {
+            width: 60%;
+            margin: 0 20%;
+        }
+
+        @include respond(phone) {
+            width: 80%;
+            margin: 0 10%;
+        }
     }
+
+
 
     .col-2-of-3 {
         width: calc( 2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal}) ;

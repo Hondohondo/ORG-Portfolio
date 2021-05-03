@@ -1,3 +1,15 @@
+section.features.homepage {
+  //padding: 2rem 0;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+section.features.homepage2 {
+ color: white;
+}
+
+
+
 section.features {
   padding: 8rem 0;
   //color: $color-body;
@@ -76,7 +88,8 @@ section.features {
   }
 
   &_left {
-    width: 33.3333%;
+    //width: 33.3333%;
+    width: 30%;
     //float: left;
     display: table-cell;
 
@@ -84,9 +97,14 @@ section.features {
 
     //padding: 3rem 5rem;
     padding-bottom: 3rem;
+
+    @include respond(tab-port) { // width < 900?
+      display: none;
+    }
   }
   &_right {
-    width: 66.6667%;
+    //width: 66.6667%;
+    width: 70%;
     //float: left;
     display: table-cell;
     vertical-align: middle;
@@ -147,10 +165,11 @@ section.features {
 .popup {
 
   .team-contacts {
-    width: 60%;
+    width: 80%;
     //text-align: center;
     //text-align: justify;
-    margin: 0 20%;
+    //margin: 0 20%;
+    margin: 0 10%;
     padding-top: 2rem;
 
     a:link,
@@ -293,6 +312,10 @@ section.features {
 .first-row-team {
   display: flex;
   justify-content: center;
+
+  @include respond(tab-port) { // width < 900?
+    display: block;
+  }
 }
 
 .section-team {

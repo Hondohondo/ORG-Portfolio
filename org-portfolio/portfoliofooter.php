@@ -13,13 +13,13 @@
                     <li class="footer__item"><a href="contact.php" class="footer__link">Contact</a></li>
                 </ul>
             </div>
-            <div class="footer__socialbox">
+       <!--     <div class="footer__socialbox">
                 <ul class="footer__social-links">
                     <li class="footer__social-icons"><a href="#" class="footer__icons-links"><i class="ion-social-facebook"></i></a></li>
                     <li class="footer__social-icons"><a href="#" class="footer__icons-links"><i class="ion-social-twitter"></i></a></li>
                     <li class="footer__social-icons"><a href="#" class="footer__icons-links"><i class="ion-social-instagram"></i></a></li>
                 </ul>
-            </div>
+            </div>-->
         </div>
         <div class="col-1-of-2">
             <p class="footer__copyright">
@@ -39,6 +39,7 @@
 <!-- <script src="javascipt/jquery.waypoints.min.js"></script>
 <script src="javascript/noframework.waypoints.min.js"></script> -->
 
-<script src="../javascript/jquery.waypoints.min.js"></script>
+<!--        <script src="../javascript/jquery.waypoints.min.js"></script>-->
 
-<script src="../javascript/script.js"></script>
+<!--        <script src="../javascript/script.js"></script>-->
+<script src="../javascript/mobilenav.js"></script>

@@ -1,5 +1,3 @@
-
-
 <div class="popup" id="jon">
     <div class="popup_content">
         <div class="popup_left">
@@ -7,7 +5,7 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9063">(216) 910-9063</a>
+                <a href="tel:216-910-9063">216.910.9063</a>
             </div>
 
             <div class="team-contacts">
@@ -25,6 +23,8 @@
             </h3>
             <p class="popup_text">
                 Mr. Berns is a co-founder of ORG and has been active in the real estate and consulting industry for over 30 years. Mr. Berns has dedicated his time and vision, along with co-founder Edward Schwartz, to growing ORG into a premier real estate consulting firm.  As a senior investment professional, Mr. Berns is directly involved in and administers client service, investment fund and real asset due diligence, portfolio strategy and manager oversight.  He also is responsible for the oversight of the ORG Diversified Real Estate Portfolio, a separate entity that owns and manages a $150 million investment portfolio including apartment, office, retail and industrial properties.   Mr. Berns is a voting member of the ORG Investment Committee.  Prior to forming ORG in 1999, Mr. Berns was president of Berns Properties, Inc., a real estate development, investment and consulting company that he founded in 1984.  Acting as a consultant under Berns Properties, Mr. Berns was responsible for negotiating an investment by Nuon International, a $2 billion Dutch utility, in North Coast Energy, as well as consulting in the acquisition of two large research facilities located in Michigan and Pennsylvania.  Mr. Berns is a past chairman of the First Suburbs Consortium, a nationally recognized government-led advocacy organization focused on redevelopment of urban property and has been a national speaker on real estate investment strategies, urban redevelopment and energy utilization optimization and procurement.  Mr. Berns is a member of Pension Real Estate Association (PREA).  He has a Bachelor of Science in General Science from the University of Michigan.
+            </p>
+            <p class="popup_text">
 
             </p>
 <!--            <a href="#" class="btn btn--green">Book now</a>-->
@@ -39,7 +39,7 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9080">(216) 910-9080</a>
+                <a href="tel:216-910-9080">216.910.9080</a>
             </div>
 
             <div class="team-contacts">
@@ -70,7 +70,7 @@
             <img class="popup_img" src="../org_images/female_avatar.png" alt="Female Avatar">
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9070">(216) 910-9070</a>
+                <a href="tel:216-910-9070">216.910.9070</a>
             </div>
 
             <div class="team-contacts">
@@ -102,7 +102,7 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9072">(216) 910-9072</a>
+                <a href="tel:216-910-9072">216.910.9072</a>
             </div>
 
             <div class="team-contacts">
@@ -134,7 +134,7 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9071">(216) 910-9071</a>
+                <a href="tel:216-910-9071">216.910.9071</a>
             </div>
 
             <div class="team-contacts">
@@ -164,7 +164,7 @@
             <img class="popup_img" src="../org_images/female_avatar.png" alt="Female Avatar">
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9070">(216) 910-9077</a>
+                <a href="tel:216-910-9070">216.910.9077</a>
             </div>
 
             <div class="team-contacts">
@@ -195,7 +195,7 @@
             <img class="popup_img" src="../org_images/female_avatar.png" alt="Female Avatar">
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9070">(216) 910-9068</a>
+                <a href="tel:216-910-9070">216.910.9068</a>
             </div>
 
             <div class="team-contacts">
@@ -227,7 +227,7 @@
             <img class="popup_img" src="../org_images/female_avatar.png" alt="Female Avatar">
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9070">(216) 910-9074</a>
+                <a href="tel:216-910-9070">216.910.9074</a>
             </div>
 
             <div class="team-contacts">
@@ -260,7 +260,7 @@
 
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9071">(216) 910-9078</a>
+                <a href="tel:216-910-9071">216.910.9078</a>
             </div>
 
             <div class="team-contacts">
@@ -290,7 +290,7 @@
             <img class="popup_img" src="../org_images/female_avatar.png" alt="Female Avatar">
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9070">(216) 910-9064</a>
+                <a href="tel:216-910-9070">216.910.9064</a>
             </div>
 
             <div class="team-contacts">
@@ -321,7 +321,7 @@
             <img class="popup_img" src="../org_images/female_avatar.png" alt="Female Avatar">
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9070">(216) 910-9065</a>
+                <a href="tel:216-910-9070">216.910.9065</a>
             </div>
 
             <div class="team-contacts">
@@ -352,7 +352,7 @@
             <img class="popup_img" src="../org_images/female_avatar.png" alt="Female Avatar">
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9070">(216) 910-9067</a>
+                <a href="tel:216-910-9070">216.910.9067</a>
             </div>
 
             <div class="team-contacts">
@@ -383,7 +383,7 @@
             <img class="popup_img" src="../org_images/female_avatar.png" alt="Female Avatar">
             <div class="team-contacts">
                 <i class="ion-ios-telephone icon-small"></i>
-                <a href="tel:216-910-9070">(216) 910-9066</a>
+                <a href="tel:216-910-9070">216.910.9066</a>
             </div>
 
             <div class="team-contacts">
