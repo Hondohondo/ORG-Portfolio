@@ -40,8 +40,22 @@ section.features {
     line-height: 1.6;
     font-size: 1.8rem;
     width: 70%;
+    //width: 75%;
     margin-left: 15%;
-    //text-align: justify;
+    //margin-left: 12.5%;
+    text-align: justify;
+    //text-align: left;
+
+    @include respond(tab-port) { // width < 900?
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    @include respond(phone) { // width < 600?
+      width: 90%;
+      margin-left: 5%;
+    }
+
   }
 }
 
@@ -97,6 +111,9 @@ section.features {
 
     //padding: 3rem 5rem;
     padding-bottom: 3rem;
+    @include respond(tab-land) { // width < 1200
+      width: 25%;
+    }
 
     @include respond(tab-port) { // width < 900?
       display: none;
@@ -110,6 +127,20 @@ section.features {
     vertical-align: middle;
 
     padding: 3rem 5rem;
+
+    @include respond(tab-land) { // width < 1200
+      width: 75%;
+      padding: 2rem 3rem;
+    }
+
+    @include respond(phone) {
+      width: 90%;
+      margin: auto auto;
+      padding: 3rem 2rem;
+      display: block;
+      overflow: auto;
+      height: 55rem;
+    }
 
   }
   &_img {
@@ -165,11 +196,12 @@ section.features {
 .popup {
 
   .team-contacts {
-    width: 80%;
-    //text-align: center;
+    //width: 90%;
+    font-size: 1.4rem;
+    text-align: center;
     //text-align: justify;
     //margin: 0 20%;
-    margin: 0 10%;
+    //margin: 0 5%;
     padding-top: 2rem;
 
     a:link,
@@ -200,22 +232,40 @@ section.features {
     //width: 100%;
     height: 12rem;
 
+    @include respond(phone) {
+      height: 10rem;
+    }
+
   }
 
   .portfolio {
     font-size: 1.7rem;
-    height: 85rem;
+    //height: 85rem;
     background-color: $color-white;
     border-radius: .5rem;
     box-shadow: 0 .2rem .2rem #efefef;
     padding: 2rem;
 
     line-height: 1.6;
+
+    @include respond(tab-port) {
+      padding: 4rem 10rem;
+    }
+
+    //@include respond(phone) {
+    //  padding: 4rem 6rem;
+    //}
+
+    @include respond(phone) {
+      padding: 3rem 2rem;
+    }
+
+
   }
 
   .property {
     font-size: 1.7rem;
-    height: 85rem;
+    //height: 85rem;
     //background-color: #fcfcfc;
     //border-top-left-radius: .5rem;
     //border-top-right-radius: .5rem;
@@ -225,6 +275,17 @@ section.features {
     padding: 2rem;
 
     line-height: 1.6;
+
+    @include respond(tab-port) {
+      padding: 4rem 10rem;
+    }
+
+    //@include respond(phone) {
+    //  padding: 4rem 6rem;
+    //}
+    @include respond(phone) {
+      padding: 3rem 2rem;
+    }
 
     .icon-small {
       color: $color-org-blue;
@@ -244,7 +305,7 @@ section.features {
   background-color: $color-white;
   border-radius: .5rem;
   //width: 90%;
-  width: 100%;
+  //width: 100%;
   //margin-left: 5%;
   box-shadow: 0 .2rem .2rem #efefef;
   padding-bottom: 2rem;
@@ -293,12 +354,21 @@ section.features {
     // padding: .5rem 0;
     // margin-left: 10%;
     // margin-right: 10%;
+
+    @include respond(tab-land) {
+      //padding-left: 4rem;
+      width: 85%;
+    }
+
+    @include respond(phone) {
+      //padding-left: 4rem;
+      width: 90%;
+    }
   }
 
   ul {
     list-style: none;
     // padding: 0 20%;
-
 
     li {
       padding: .5rem 0;
@@ -330,6 +400,12 @@ section.features {
     width: 90%;
     margin: 0 auto;
 
+    @include respond(phone) {
+      width: 100%;
+    }
+
+
+
     .icon-small {
       color: $color-org-green;
       font-size: 1.2rem;
@@ -344,6 +420,10 @@ section.features {
     width: 80%;
     margin: 0 auto;
     padding-top: 0;
+
+    @include respond(phone) {
+      width: 90%;
+    }
   }
 
   ul {

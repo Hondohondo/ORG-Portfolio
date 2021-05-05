@@ -66,6 +66,8 @@
         float: left;
         /* margin-top: 20px; */
         // padding-left: 3rem;
+
+
     }
 
     &__text-box {
@@ -392,10 +394,15 @@
     margin-left: 5%;
     box-shadow: 0 .2rem .2rem #efefef;
 
+    @include respond(phone) {
+        width: 100%;
+        margin: 0;
+    }
+
     div {
         // margin: o auto;
         // text-align: center;
-        padding: 1.5rem;
+        padding: 1.5rem 0;
         border-bottom: 1px solid #e8e8e8;
 
         &:first-child {
@@ -434,6 +441,16 @@
         // padding: .5rem 0;
         // margin-left: 10%;
         // margin-right: 10%;
+
+        @include respond(tab-port) {
+            width: 85%;
+
+        }
+
+        @include respond(phone) { // width < 600?
+            width: 90%;
+            //margin-left: 5%;
+        }
     }
 
     ul {

@@ -2,7 +2,8 @@
     <div class="col-1-of-3">
         <div class="home">
 <!--            <img src="../img/property/reception-small.jpg" alt="Reception" class="home__img">-->
-            <img src="../img/newimages/25E.jpg" alt="Reception" class="home__img">
+<!--            <img src="../img/newimages/25E.jpg" alt="Reception" class="home__img">-->
+            <img src="../ORG-Property-Photos/25E/25E-3.jpg" alt="25E" class="home__img">
             <h5 class="home__name">25E</h5>
 
             <div class="row home__box">
@@ -15,13 +16,14 @@
             </div>
 <!--            <a href="showcase.php" class="home__btn">View Property</a>-->
 <!--            <a href="#card-one" class="home__btn">View Property</a>-->
-            <a href="../img/newimages/25E.jpg" data-lightbox="mygallery" data-title="ORG Property" class="home__btn">View Property</a>
+            <a href="../ORG-Property-Photos/25E/25E-3.jpg" data-lightbox="mygallery" data-title="25E" class="home__btn">View Property</a>
         </div>
 
     </div>
     <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/3700.jpg" alt="Hospital" class="home__img">
+<!--            <img src="../img/newimages/3700.jpg" alt="Hospital" class="home__img">-->
+            <img src="../ORG-Property-Photos/3700-Park-East/3700-Park-East-5.jpg" alt="3700-Park-East" class="home__img">
             <h5 class="home__name">3700 Park East</h5>
 
             <div class="row home__box">
@@ -33,13 +35,14 @@
 
             </div>
 <!--            <a href="showcase-1.php" class="home__btn">View Property</a>-->
-            <a href="../img/newimages/3700.jpg" data-lightbox="mygallery-2" data-title="ORG Property-2" class="home__btn">View Property</a>
+            <a href="../ORG-Property-Photos/3700-Park-East/3700-Park-East-5.jpg" data-lightbox="mygallery-2" data-title="3700-Park-East" class="home__btn">View Property</a>
         </div>
 
     </div>
     <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/creekview.jpg" alt="Marble Room" class="home__img">
+<!--            <img src="../img/newimages/creekview.jpg" alt="Marble Room" class="home__img">-->
+            <img src="../ORG-Property-Photos/Creekview-Commons/Creekview-Commons-8.jpg" alt="Marble Room" class="home__img">
                       <h5 class="home__name">Creekview Commons</h5>
 
 
@@ -52,7 +55,7 @@
                 </div>
 
             </div>
-            <a href="../img/newimages/creekview.jpg" data-lightbox="mygallery-3" data-title="Creekview" class="home__btn">View Property</a>
+            <a href="../ORG-Property-Photos/Creekview-Commons/Creekview-Commons-8.jpg" data-lightbox="mygallery-3" data-title="Creekview" class="home__btn">View Property</a>
         </div>
 
     </div>
@@ -100,7 +103,8 @@
     </div>
     <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/harper-pointe.jpg" alt="harper pointe" class="home__img">
+<!--            <img src="../img/newimages/harper-pointe.jpg" alt="harper pointe" class="home__img">-->
+            <img src="../ORG-Property-Photos/Harper-Pointe/Harper-Pointe-1.jpg" alt="harper pointe" class="home__img">
             <h5 class="home__name">Harper Pointe</h5>
 
             <div class="row home__box">
@@ -111,7 +115,7 @@
                 </div>
 
             </div>
-            <a href="../img/newimages/harper-pointe.jpg" data-lightbox="mygallery-6" data-title="Harper Pointe" class="home__btn">View Property</a>
+            <a href="../ORG-Property-Photos/Harper-Pointe/Harper-Pointe-1.jpg" data-lightbox="mygallery-6" data-title="Harper Pointe" class="home__btn">View Property</a>
 
         </div>
 
@@ -123,7 +127,8 @@
 <div class="row">
     <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/highland-business-park.jpg" alt="Highland Business Park" class="home__img">
+<!--            <img src="../img/newimages/highland-business-park.jpg" alt="Highland Business Park" class="home__img">-->
+            <img src="../ORG-Property-Photos/Highlands-Business-Park/Highland-Business-Park-1.jpg" alt="Highland Business Park" class="home__img">
             <h5 class="home__name">Highlands Business Park</h5>
 
             <div class="row home__box">
@@ -135,7 +140,7 @@
 
             </div>
 
-            <a href="../img/newimages/highland-business-park.jpg" data-lightbox="mygallery-7" data-title="Highland Business Park" class="home__btn">View Property</a>
+            <a href="../ORG-Property-Photos/Highlands-Business-Park/Highland-Business-Park-1.jpg" data-lightbox="mygallery-7" data-title="Highland Business Park" class="home__btn">View Property</a>
 
         </div>
 
@@ -160,7 +165,8 @@
     </div>-->
     <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/Lakepoint_1.jpg" alt="LakePoint" class="home__img">
+<!--            <img src="../img/newimages/Lakepoint_1.jpg" alt="LakePoint" class="home__img">-->
+            <img src="../ORG-Property-Photos/Lakepoint/Lakepoint-3.jpg" alt="LakePoint" class="home__img">
             <h5 class="home__name">Lakepoint Office Park</h5>
 
             <div class="row home__box">
@@ -171,7 +177,7 @@
                 </div>
 
             </div>
-            <a href="../img/newimages/Lakepoint_1.jpg" data-lightbox="mygallery-9" data-title="LakePoint" class="home__btn">View Property</a>
+            <a href="../ORG-Property-Photos/Lakepoint/Lakepoint-3.jpg" data-lightbox="mygallery-9" data-title="LakePoint" class="home__btn">View Property</a>
 
         </div>
 
@@ -179,7 +185,8 @@
 
     <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/Landerbrook_1.jpg" alt="Landerbrook" class="home__img">
+<!--            <img src="../img/newimages/Landerbrook_1.jpg" alt="Landerbrook" class="home__img">-->
+            <img src="../ORG-Property-Photos/Landerbrook/Landerbrook-1.jpg" alt="Landerbrook" class="home__img">
             <h5 class="home__name">Landerbrook Pointe</h5>
 
             <div class="row home__box">
@@ -190,7 +197,7 @@
                 </div>
 
             </div>
-            <a href="../img/newimages/Landerbrook_1.jpg" data-lightbox="mygallery-10" data-title="Landerbrook" class="home__btn">View Property</a>
+            <a href="../ORG-Property-Photos/Landerbrook/Landerbrook-1.jpg" data-lightbox="mygallery-10" data-title="Landerbrook" class="home__btn">View Property</a>
 
         </div>
 
@@ -222,7 +229,8 @@
 
     <div class="col-1-of-3">
         <div class="home">
-            <img src="../img/newimages/3723ParkEast.jpg" alt="3723 Park East" class="home__img">
+<!--            <img src="../img/newimages/3723ParkEast.jpg" alt="3723 Park East" class="home__img">-->
+            <img src="../ORG-Property-Photos/Park-East-Office-Park/Park-East-Office-1.jpg" alt="3723 Park East" class="home__img">
             <h5 class="home__name">Park East Office Park</h5>
 
             <div class="row home__box">
@@ -233,7 +241,7 @@
                 </div>
 
             </div>
-            <a href="../img/newimages/3723ParkEast.jpg" data-lightbox="mygallery-12" data-title="3723 Park East" class="home__btn">View Property</a>
+            <a href="../ORG-Property-Photos/Park-East-Office-Park/Park-East-Office-1.jpg" data-lightbox="mygallery-12" data-title="3723 Park East" class="home__btn">View Property</a>
 
         </div>
 

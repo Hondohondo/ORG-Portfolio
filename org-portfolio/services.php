@@ -5,7 +5,7 @@
                 
                 <title>ORGPM | Institutional Real Estate Investing | Services</title>
             </head>
-    <body>
+    <body id="service-page">
         <header class="header" id="services">
 
 <!--            --><?php //include "navigation.php";?>

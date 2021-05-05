@@ -388,6 +388,11 @@ body {
   box-shadow: 0 0.2rem 0.2rem #efefef;
   padding-bottom: 2rem;
 }
+@media (max-width: 37.5em) {
+  .contact-text {
+    width: 100%;
+  }
+}
 .contact-text h3 {
   background-color: #fcfcfc;
   font-size: 2rem;
@@ -409,6 +414,11 @@ body {
   font-size: 1.6rem;
   width: 80%;
   margin: 2rem auto;
+}
+@media (max-width: 37.5em) {
+  .contact-text p, .contact-text address {
+    width: 90%;
+  }
 }
 .contact-text a:link,
 .contact-text a:visited {
@@ -458,6 +468,19 @@ section.features .long-copy {
   font-size: 1.8rem;
   width: 70%;
   margin-left: 15%;
+  text-align: justify;
+}
+@media (max-width: 56.25em) {
+  section.features .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 37.5em) {
+  section.features .long-copy {
+    width: 90%;
+    margin-left: 5%;
+  }
 }
 
 .popup {
@@ -493,6 +516,11 @@ section.features .long-copy {
   vertical-align: middle;
   padding-bottom: 3rem;
 }
+@media (max-width: 75em) {
+  .popup_left {
+    width: 25%;
+  }
+}
 @media (max-width: 56.25em) {
   .popup_left {
     display: none;
@@ -503,6 +531,22 @@ section.features .long-copy {
   display: table-cell;
   vertical-align: middle;
   padding: 3rem 5rem;
+}
+@media (max-width: 75em) {
+  .popup_right {
+    width: 75%;
+    padding: 2rem 3rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .popup_right {
+    width: 90%;
+    margin: auto auto;
+    padding: 3rem 2rem;
+    display: block;
+    overflow: auto;
+    height: 55rem;
+  }
 }
 .popup_img {
   display: block;
@@ -538,8 +582,8 @@ section.features .long-copy {
 }
 
 .popup .team-contacts {
-  width: 80%;
-  margin: 0 10%;
+  font-size: 1.4rem;
+  text-align: center;
   padding-top: 2rem;
 }
 .popup .team-contacts a:link,
@@ -562,23 +606,46 @@ section.features .long-copy {
 .section-services img {
   height: 12rem;
 }
+@media (max-width: 37.5em) {
+  .section-services img {
+    height: 10rem;
+  }
+}
 .section-services .portfolio {
   font-size: 1.7rem;
-  height: 85rem;
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 0.2rem 0.2rem #efefef;
   padding: 2rem;
   line-height: 1.6;
 }
+@media (max-width: 56.25em) {
+  .section-services .portfolio {
+    padding: 4rem 10rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .section-services .portfolio {
+    padding: 3rem 2rem;
+  }
+}
 .section-services .property {
   font-size: 1.7rem;
-  height: 85rem;
   background-color: #fff;
   border-radius: 0.5rem;
   box-shadow: 0 0.2rem 0.2rem #efefef;
   padding: 2rem;
   line-height: 1.6;
+}
+@media (max-width: 56.25em) {
+  .section-services .property {
+    padding: 4rem 10rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .section-services .property {
+    padding: 3rem 2rem;
+  }
 }
 .section-services .property .icon-small {
   color: #01415c;
@@ -593,7 +660,6 @@ section.features .long-copy {
 .service-type-wide {
   background-color: #fff;
   border-radius: 0.5rem;
-  width: 100%;
   box-shadow: 0 0.2rem 0.2rem #efefef;
   padding-bottom: 2rem;
 }
@@ -622,6 +688,16 @@ section.features .long-copy {
   text-align: left;
   margin: 0 auto 2.5rem auto;
 }
+@media (max-width: 75em) {
+  .service-type-wide p {
+    width: 85%;
+  }
+}
+@media (max-width: 37.5em) {
+  .service-type-wide p {
+    width: 90%;
+  }
+}
 .service-type-wide ul {
   list-style: none;
 }
@@ -649,6 +725,11 @@ section.features .long-copy {
   width: 90%;
   margin: 0 auto;
 }
+@media (max-width: 37.5em) {
+  .section-research .service-type-wide {
+    width: 100%;
+  }
+}
 .section-research .service-type-wide .icon-small {
   color: #6b9912;
   font-size: 1.2rem;
@@ -660,6 +741,11 @@ section.features .long-copy {
   width: 80%;
   margin: 0 auto;
   padding-top: 0;
+}
+@media (max-width: 37.5em) {
+  .section-research .list-part {
+    width: 90%;
+  }
 }
 .section-research ul {
   text-align: left;
@@ -906,11 +992,6 @@ section.features .long-copy {
   max-width: 114rem;
   margin: 0 auto;
 }
-@media (max-width: 75em) {
-  .row {
-    padding-left: 4rem;
-  }
-}
 .row:not(:last-child) {
   margin-bottom: 8rem;
 }
@@ -919,9 +1000,19 @@ section.features .long-copy {
     margin-bottom: 6rem;
   }
 }
+@media (max-width: 75em) {
+  .row {
+    padding: 0 2%;
+  }
+}
 @media (max-width: 56.25em) {
   .row {
     padding: 0 3rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .row {
+    padding: 0 1rem;
   }
 }
 .row::after {
@@ -934,11 +1025,6 @@ section.features .long-copy {
 }
 .row [class^=col-]:not(:last-child) {
   margin-right: 6rem;
-}
-@media (max-width: 75em) {
-  .row [class^=col-]:not(:last-child) {
-    margin-right: 4rem;
-  }
 }
 @media (max-width: 56.25em) {
   .row [class^=col-]:not(:last-child) {
@@ -1229,8 +1315,14 @@ section.features .long-copy {
   margin-left: 5%;
   box-shadow: 0 0.2rem 0.2rem #efefef;
 }
+@media (max-width: 37.5em) {
+  .service-type {
+    width: 100%;
+    margin: 0;
+  }
+}
 .service-type div {
-  padding: 1.5rem;
+  padding: 1.5rem 0;
   border-bottom: 1px solid #e8e8e8;
 }
 .service-type div:first-child {
@@ -1255,6 +1347,16 @@ section.features .long-copy {
   font-size: 1.7rem;
   text-align: left;
   margin: 0 auto 2.5rem auto;
+}
+@media (max-width: 56.25em) {
+  .service-type p {
+    width: 85%;
+  }
+}
+@media (max-width: 37.5em) {
+  .service-type p {
+    width: 90%;
+  }
 }
 .service-type ul {
   list-style: none;
@@ -1416,11 +1518,6 @@ section.features .long-copy {
   padding-top: 2rem;
   padding-bottom: 4rem;
   background-color: #f4f4f4;
-}
-@media (max-width: 56.25em) {
-  .section-book {
-    padding: 10rem 0;
-  }
 }
 .section-book p {
   font-size: 1.7rem;

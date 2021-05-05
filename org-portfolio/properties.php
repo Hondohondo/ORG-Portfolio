@@ -32,7 +32,6 @@
 
             <?php include "property-card-1.php";?>
 
-
             <?php include "property-card-2.php";?>
 
             <?php include "property-card-3.php";?>

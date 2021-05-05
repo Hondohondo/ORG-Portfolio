@@ -69,6 +69,11 @@
     box-shadow: 0 0.2rem 0.2rem #efefef;
     padding-bottom: 2rem;
 
+    @include respond(phone) {
+        width: 100%;
+    }
+
+
     h3 {
         background-color: #fcfcfc;
 
@@ -96,6 +101,10 @@
         //padding: 1.5rem 2rem;
         width: 80%;
         margin: 2rem auto;
+        @include respond(phone) {
+            width: 90%;
+        }
+
     }
 
     a:link,

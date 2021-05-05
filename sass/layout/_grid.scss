@@ -12,34 +12,43 @@
     }
 }
 
+#team-page .row {
+    @include respond(tab-land) {
+        //max-width: 100%;
+        //margin: 0 auto;
+        //padding-left: 2rem;
+        //margin-left: 4rem;
+        //padding-left: 4rem;
+    }
+}
+
 
 .row {
     max-width: $grid-width;
     // background-color: #eee;
     margin: 0 auto;
 
-    @include respond(tab-land) {
-        //max-width: 100%;
-        //margin: 0 auto;
-        //padding-left: 2rem;
-        //margin-left: 4rem;
-        padding-left: 4rem;
-    }
-
     &:not(:last-child) {
         margin-bottom: $gutter-vertical;
-        
 
         @include respond(tab-port) {
             margin-bottom: $gutter-vertical-small;
         }
+    }
 
+    @include respond(tab-land) {
+        padding: 0 2%;
     }
 
     @include respond(tab-port) {
        //max-width: 50rem;
        //max-width: 70rem;
        padding: 0 3rem;
+
+    }
+
+    @include respond(phone) {
+       padding: 0 1rem;
     }
 
     @include clearfix;
@@ -58,7 +67,7 @@
             margin-right: $gutter-horizontal;
 
             @include respond(tab-land) {
-                margin-right: $gutter-horizontal-medium;
+                //margin-right: $gutter-horizontal-medium;
             }
 
             @include respond(tab-port) {
@@ -121,7 +130,18 @@
         width: calc( 3 * ((100% - 3 * #{$gutter-horizontal}) / 4) + 2 * #{$gutter-horizontal} );
     }
 
+}
 
+///////////////////////
+/// Unique Pages Grids
+
+#service-page .row .col-1-of-2 {
+    @include respond(tab-port) {
+        //width: 80% !important;
+        //margin-left: 10%;
+        //margin: 20px 20px;
+        //margin: 0 auto !important;
+    }
 }
 
 

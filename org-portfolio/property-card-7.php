@@ -7,7 +7,7 @@
         <div class="col-1-of-2 show-box-small">
             <div class="row">
                 <div class="col-1-of-2">
-<!--                    <a href="../img/newimages/highland-business-park-1.jpg" data-lightbox="mygallery-7" data-title="Highland Business Park"></a>-->
+                    <a href="../ORG-Property-Photos/Highlands-Business-Park/Highland-Business-Park-2.jpg" data-lightbox="mygallery-7" data-title="Highland Business Park"></a>
 
                 </div>
                 <div class="col-1-of-2">

@@ -15,8 +15,8 @@
 
 
 <!--<link rel="stylesheet" href="../css/style.css?v=1.1">-->
-<link rel="stylesheet" href="../sass/main.css?v=1.7">
-<link rel="stylesheet" href="../css/queries.css?v=1.7">
+<link rel="stylesheet" href="../sass/main.css?v=2.1">
+<link rel="stylesheet" href="../css/queries.css?v=2.1">
 
 <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
